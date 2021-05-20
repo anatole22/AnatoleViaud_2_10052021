@@ -13,6 +13,7 @@ html
 body
 {
    margin-left: 20px; 
+   margin-right: 20px;
 }
 
 /* menu navigation */
@@ -190,14 +191,90 @@ nav a:hover
 
 /* sections */
 
-
-/* populaires */
+#location
+{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 40px;
+}
 
 /* hébergement */
 
+#hébergement img
+{
+    height: 170px;
+    width: 340px;
+    border-radius: 20px 20px 0 0;
+}
+
+#hébergement
+{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+}
+
+#hébergement article
+{
+    background-color: white;
+}
+
+#hébergement a
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    text-decoration: none;
+    
+}
+
+
+/* populaires */
+
+#populaires img
+{
+    height: 170px;
+    width: 340px;
+    border-radius: 20px 20px 0 0;
+}
+
+#populaires
+{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+}
+
 /* activités */
 
+#activités
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
+#activités img
+{
+    height: 200px;
+    width: 400px;
+}
 
 /* footer */
 
+#footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
