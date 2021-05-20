@@ -1,0 +1,107 @@
+/* Configuration de la page */
+
+@font-face 
+{
+    font-family: 'raleway';
+    src: url('Raleway-Regular.ttf');
+}
+html
+{
+    font-family: 'raleway', Arial, Helvetica, sans-serif
+} 
+
+body
+{
+    width:100%;margin:auto;min-width:auto;max-width:375px
+}
+
+/* menu navigation */
+nav
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+nav img
+{
+    width: 40%;
+}
+
+nav p
+{
+    color: #0065fc;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-items: space-between;
+    
+}
+
+nav li
+{
+    display: flex;
+    justify-items: space-between;
+    
+    
+}
+
+nav a
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: darkgray;
+    
+}
+
+/* titre */
+
+#titre
+{
+    display: flex;
+    flex-direction: column;
+    
+
+#titre h1
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#titre p
+{
+    font-size: 18px;
+}
+
+
+
+/* bouton recherche */
+
+
+
+/* filtres */
+
+
+/* info */
+
+
+
+/* sections */
+
+
+/* populaires */
+
+/* hébergement */
+
+/* activités */
+
+
+
+/* footer */
+
