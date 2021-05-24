@@ -284,7 +284,7 @@ section h2
 
 /* activités */
 
-#activités
+section
 {
     display: flex;
     flex-wrap: wrap;
@@ -299,7 +299,7 @@ section h2
     flex-direction: column;
 }
 
-#activités article
+section article
 {
     background-color: white;
     border-radius: 20px;
