@@ -1,99 +1,81 @@
-/* Général */
-
-@font-face 
-{
-    font-family: 'raleway';
-    src: url('Raleway-Regular.ttf');
-}
-html
-{
+/* GENERAL */
+html{
     font-family: 'raleway', Arial, Helvetica, sans-serif
-} 
-
-body
-{
-   margin-left: 20px; 
-   margin-right: 20px;
 }
-
-a
-{
+a {
     text-decoration: none;
 }
-
-#starbleu
-{
-    color: #0065fc;
-}
-
-#stargray
-{
-    color: #f2f2f2;
-}
-
-/* menu navigation */
-
-nav
-{
+.flexcentre{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
 }
-
-nav img
-{
-    width: 120px;
-    height: 50px;
-}
-
-nav ul
-{
-    list-style: none;
+.flexaround{
     display: flex;
     justify-content: space-around;
-    justify-items: center;
-    width: 45%;  
+    align-items: center;
 }
-
-nav li
+.flexbetween
 {
-    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bluereservia{
     color: #0065fc;
-    
+}
+.blue2reservie{
+    color: #deebff;
+}
+.blackreservia{
+    color: black;
+}
+.grayreservia{
+    color: #f2f2f2;
+}
+.gray2reservia{
+    color:gray;
 }
 
-nav a
-{
-    text-decoration: none;
-    font-size: 22px;
-    color: gray;
+/* NAV */
+.spaceliens{
+    width: 45%;
 }
-
-nav a:hover
-{
+.sizeliens{
+    width: 140px;
+    height: 99px;
+}
+.borderliens{
+    border-top: 1px solid white;
+}
+.borderliens:hover{
+    border-top: 1px solid #0065fc;
+}
+.gray2reservia:hover{
     color: #0065fc;
-    border-top: #0065fc;
-    border-top-style: solid;
-    padding-top: 21px;
-    
+}
+.fontbold{
+    font-weight: bold;
+}
+@media screen and (max-width: 1280px) 
+{
+    .navmedia{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
 }
 
-/* titre */
-
-#titre h1 
-{
+/* TITRE */
+#titre h1 {
     font-size: 26px;
 }
-
-#titre p
-{
+#titre p{
     font-size: 18px;
     margin-top: -8px;
 }
 
-/* bouton recherche */
-
+/* RECHERCHE */
 #recherche
 {
     display: flex;
@@ -154,6 +136,7 @@ nav a:hover
 {
     list-style: none;
     display: flex; 
+    
 }
 
 #filtres li
@@ -161,6 +144,8 @@ nav a:hover
     margin-left: 30px;
     border: 2px solid #f2f2f2;
     border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #filtres a
@@ -206,7 +191,13 @@ nav a:hover
 
 /* sections */
 
-section
+#starbleu{
+    color: #0065fc;
+}
+#stargray{
+    color: #f2f2f2;
+}
+.grid
 {
     display: grid;
     grid-template-columns: 7fr 3fr;
@@ -293,6 +284,12 @@ section h2
     padding-top: 20px;
 }
 
+.activitésflexcolumn
+{
+    display: flex;
+    flex-direction: column;
+}
+
 #activités article
 {
     background-color: white;
@@ -302,7 +299,7 @@ section h2
 
 #activités h3
 {
-    margin-left: 20px;
+    
 }
 
 .littleimg
@@ -351,6 +348,8 @@ section h2
 
 #footer h2
 {
-    font-size: 15px;
-    
+    font-size: 15px;    
 }
+
+
+

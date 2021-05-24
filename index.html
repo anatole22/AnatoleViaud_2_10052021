@@ -3,19 +3,20 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">    
         <link rel="stylesheet" href="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\fontawesome-free-5.15.3-web\css\all.css">
         <title>Reservia</title>
     </head>
         <body>
             <header>
-                <nav>
-                    <img class="imagestyle" src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\logo\Reservia@3x.PNG" alt="reservia_image">
-                        <ul>
-                            <li><a href="#hébergement">Hébergements</a></li>
-                            <li><a href="#activités">Activités</a></li>
-                            <li>S'inscrire</li>
-                        </ul>
-                            
+                <nav class="flexbetween navmedia">
+                    <div><img class="imagestyle" src=".\images\logo\Reservia@3x.PNG" alt="Logo Reservia" width="120px" height="50px"></div>
+                    <div class="flexaround spaceliens">
+                        <div class="sizeliens flexcentre borderliens"><a class="gray2reservia" href="#hébergement">Hébergements</a></div>
+                        <div class="sizeliens flexcentre borderliens"><a class="gray2reservia" href="#activités">Activités</a></div>
+                        <div class="sizeliens flexcentre"><a class="bluereservia fontbold" href="#">S'inscrire</a></div>    
+                    </div>
                 </nav>
 
                 <div id="titre">
@@ -46,7 +47,7 @@
 
             </header>
 
-            <Section>
+            <Section class="grid">
                 <div id="hébergement" class="backgroundsection flexcenter">
                     <h2>Hébergements à Marseille</h2>
                 <a href="#">
@@ -202,7 +203,9 @@
                 </a>
 
                 </div>
-            
+            </Section>
+
+            <section>
                 <div id="activités">
                     <h2>Activités à Marseille</h2>
             
@@ -210,7 +213,7 @@
                         <img class="bigimg" Src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\vieux_port.JPG" alt="auberge_la_cannebiere">
                         <h3>Vieux Port</h3>
                     </article>
-                        
+                <div> 
                     <article>
                         <img class="littleimg" Src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\fort_de_pomègues.JPG" alt="hotel_du_port">
                         <h3>Fort de pomègues</h3>
@@ -220,12 +223,12 @@
                         <img class="littleimg" Src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\iles_du_frioul.JPG" alt="hotel_les_mouettes">
                         <h3>îles du Frioul</h3>
                     </article>
-            
+                </div>
                     <article>
                         <img class="bigimg" Src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\parc_national_des_calanques.JPG" alt="hotel_de_la_mer">
                         <h3>Parc National des Calanques</h3>
                     </article>
-            
+                <div>
                     <article>
                         <img class="littleimg" Src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\notre_dame_de_la_garde.JPG" alt="auberge_le_panier">
                         <h3>Notre-Dame-de-la-Garde</h3>
@@ -235,6 +238,7 @@
                         <img class="littleimg" Src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\parc_longchamp.JPG" alt="hotel_chez_amina">
                         <h3>Parc Longchamp</h3>
                     </article>
+                </div>
                 </div>
             </Section>
 
