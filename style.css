@@ -10,6 +10,9 @@ a{
     color: black;
     font-size: 14px;
 }
+ul{
+    list-style: none;
+}
 .colorbluereservia{
     color: #0065fc;
 }
@@ -45,5 +48,73 @@ a{
     border-top: solid #0065fc 1px;
     color: #0065fc;
 }
-   
+/* Search */
+.search{
+    padding: 0 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+} 
+.search__h1{
+    margin: 50px 0 15px 0;
+}
+.search__p{
+    margin: 0 0 20px 0;
+}
+.search__bar{
+    display: flex;
+    align-items: center;
+}
+.search__bar__i{
+    color: black;
+    background: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    padding: 17px 19px 17px 19px;
+}
+.search__bar__input{
+    height: 50px;
+    width: 230px;
+    border: solid #f2f2f2 1px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.search__bar__button{
+    height: 50px;
+    width: 130px;
+    border-radius: 0 15px 15px 0;
+    border: solid #0065fc 1px;
+    background: #0065fc;
+    color: white;
+    font-size: 18px;
+}
+/*Filter*/
+.filter{
+    padding: 30px 50px 0 50px;
+    display: flex;
+    align-items: center;
+}
+.filter__h2{
+    margin: 0;
+    padding-right: 30px;
+}
+.filter__ul{
+    display: flex;
+    padding-left: 25px;
+    
+}
+.filter__ul__li{
+    border: solid #f2f2f2 1px;
+    border-radius: 60px;
+    margin: 0 25px 0 0;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.filter__ul__i{
+    padding: 18px 18px 18px 18px;
+    background: #deebff;
+    border-radius: 100%;
+    color: #0065fc;
+}
     
