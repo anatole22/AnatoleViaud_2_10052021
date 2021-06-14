@@ -122,6 +122,7 @@ h3{
 }
 .filter__ul{
     display: flex;
+    flex-wrap: wrap;
     width: 95%;
 }
 .filter__ul__li{
@@ -348,7 +349,6 @@ h3{
     display: flex;
     flex-direction: column;
     padding: 0;
-    font-size: 15px;
 }
 .footer__section__ul__li{
     padding: 0 0 20px 0;
@@ -425,12 +425,13 @@ h3{
     }
     .activity__section__a__petit{
         height: 260px;
-        width: 92%;
+        width: 300px;
     }
     .activity__section__a__img__grand{
         height: 208px;
     }
     .activity__section__a__img__petit{
         height: 208px;
-        width: 92%;
+        width: 100%;
     }
+}
