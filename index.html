@@ -9,16 +9,16 @@
     <script src="https://kit.fontawesome.com/b4b2f2557b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<!---------------------------------------------------------------------------- Header --------------------------------------------------------------------------------> 
+<!-- Header --> 
     <header class="header">   
-        <img class="header__img" src=".\images\logo\Reservia@3x.PNG" alt="logo">
+        <img class="header__img" src="./images/logo/Reservia@3x.png" alt="logo">
         <nav class="header__nav">    
-            <a class="header__nav__link borderlink" href="#hébergement">Hébergements</a></li>
-            <a class="header__nav__link borderlink" href="#activités">Activités</a></li>  
-        </nav>  
-        <a class="header__nav__signup colorbluereservia" href="#">S'inscrire</a>
+            <a class="header__nav__a__link" href="#hébergement">Hébergements</a>
+            <a class="header__nav__a__link" href="#activités">Activités</a>   
+            <a class="header__nav__a__signup" href="#">S'inscrire</a>
+        </nav> 
     </header>
-<!---------------------------------------------------------------------------- Search ------------------------------------------------------------------------------------> 
+<!-- Search --> 
     <section class="search">
         <h1 class="search__h1">Trouvez votre hébergement pour des vacances de rêve</h1>
         <p class="search__p">En plein centre ville ou en pleine nature</p>    
@@ -28,225 +28,220 @@
             <button class="search__bar__button">Rechercher</button> 
         </div>
     </section>
-<!---------------------------------------------------------------------------- Filter ------------------------------------------------------------------------------------>
+<!-- Filter -->
     <section class="filter">
         <h2 class="filter__h2">Filtres</h2>
         <ul class="filter__ul">
-            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-money-bill-wave filter__ul__i "></i>Economique</a></li>
-            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-child filter__ul__i"></i>Familial</a></li>
-            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas far fa-heart filter__ul__i"></i>Romantique</a></li>
-            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-dog filter__ul__i"></i>Animaux autorisés</a></li>        
-        </ul>    
-    </section>          
-        <div class="info">
-            <i class="far fas fa-info-circle info__i"></i> 
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
-    </section> 
-<!---------------------------------------------------------------------------- Main -------------------------------------------------------------------------------------->
-    <main>
-<!--------------------------------------------------------------------------- Accommodation ------------------------------------------------------------------------------> 
-        <article>
-            <h2>Hébergements à Marseille</h2>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\hebergements\auberge_la_cannebiere.JPG" alt="auberge_la_cannebiere">   
-                    <h3>Auberge la Cannebière</h3> 
-                    <p>Nuit à partir de 25&euro;</p>  
-                    <aside>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="stargray"></i>
+            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-money-bill-wave filter__ul__li__i "></i>Economique</a></li>
+            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-child filter__ul__li__i"></i>Familial</a></li>
+            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas far fa-heart filter__ul__li__i"></i>Romantique</a></li>
+            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-dog filter__ul__li__i"></i>Animaux autorisés</a></li>        
+        </ul>
+    </section>   
+<!--- Info -->
+    <div class="info">          
+            <i class="fas fa-info info__i"></i> 
+            <p class="info__p">Plus de 500 logements sont disponibles dans cette ville</p>
+    </div> 
+<!-- Main -->
+    <main class="main">
+<!-- Accommodation --> 
+        <article class="main__accomodation">
+            <div class="accomodation__section">
+                <h2 class="accomodation__h2">Hébergements à Marseille</h2>
+                <a class="accomodation__a" href="#">
+                    <img class="accomodation__section__img" src="./images/hebergements/auberge_la_cannebiere.JPG" alt="auberge_la_cannebiere">   
+                    <h3 class="accomodation__a_margin">Auberge la Cannebière</h3> 
+                    <p class="accomodation__a_margin">Nuit à partir de 25&euro;</p>  
+                    <aside class="accomodation__a_margin">
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star stargray"></i>
                     </aside>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img Src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\hebergements\hotel_du_port.JPG" alt="hotel_du_port">
-                    <h3>Hôtel du port</h3> 
-                    <p>Nuit à partir de 52&euro;</p>
-                    <aside>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
+                </a>
+                <a class="accomodation__a" href="#">
+                    <img class="accomodation__section__img" Src="./images/hebergements/hotel_du_port.JPG" alt="hotel_du_port">
+                    <h3 class="accomodation__a_margin">Hôtel du port</h3> 
+                    <p class="accomodation__a_margin">Nuit à partir de 52&euro;</p>
+                    <aside class="accomodation__a_margin">
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
                     </aside>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\hebergements\hotel_les_mouettes.JPG" alt="hotel_les_mouettes">
-                    <h3>Hôtel Les mouettes</h3>
-                    <p>Nuit à partir de 76&euro;</p>
-                    <aside>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="stargray"></i>
+                </a>
+                <a class="accomodation__a" href="#">
+                    <img class="accomodation__section__img" src="./images/hebergements/hotel_les_mouettes.JPG" alt="hotel_les_mouettes">
+                    <h3 class="accomodation__a_margin">Hôtel Les mouettes</h3>
+                    <p class="accomodation__a_margin">Nuit à partir de 76&euro;</p>
+                    <aside class="accomodation__a_margin">
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star stargray"></i>
                     </aside>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\hebergements\hotel_de_la_mer.JPG" alt="hotel_de_la_mer">              
-                    <h3>Hôtel de la mer</h3> 
-                    <p>Nuit à partir de 46&euro;</p>
-                    <aside>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="stargray"></i>
-                        <i class="fas fas fa-star" id="stargray"></i>
-                    </aside>
-                </section> 
-            </a>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\hebergements\auberge_le_panier.JPG" alt="auberge_le_panier">
-                    <h3>Auberge Le Panier</h3>
-                    <p>Nuit à partir de 23&euro;</p>
-                    <aside>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="stargray"></i>
-                    </aside>
-                </section>  
-            </a>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\hebergements\hotel_chez_amina.JPG" alt="hotel_chez_amina">
-                    <h3>Hôtel chez Amina</h3> 
-                    <p>Nuit à partir de 96&euro;</p>
-                    <aside>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                    </aside>
-                </section>   
-            </a>
-            <h3>Afficher Plus</h3>   
+                </a>
+                <a class="accomodation__a" href="#">
+                    <img class="accomodation__section__img" src="./images/hebergements/hotel_de_la_mer.JPG" alt="hotel_de_la_mer">              
+                    <h3 class="accomodation__a_margin">Hôtel de la mer</h3> 
+                    <p class="accomodation__a_margin">Nuit à partir de 46&euro;</p>
+                    <aside class="accomodation__a_margin">
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star stargray"></i>
+                        <i class="fas fas fa-star stargray"></i>
+                    </aside> 
+                </a>
+                <a class="accomodation__a" href="#">
+                    <img class="accomodation__section__img" src="./images/hebergements/auberge_le_panier.JPG" alt="auberge_le_panier">
+                    <h3 class="accomodation__a_margin">Auberge Le Panier</h3>
+                    <p class="accomodation__a_margin">Nuit à partir de 23&euro;</p>
+                    <aside class="accomodation__a_margin">
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star stargray"></i>
+                    </aside> 
+                </a>
+                <a class="accomodation__a" href="#">
+                    <img class="accomodation__section__img" src="./images/hebergements/hotel_chez_amina.JPG" alt="hotel_chez_amina">
+                    <h3 class="accomodation__a_margin">Hôtel chez Amina</h3> 
+                    <p class="accomodation__a_margin">Nuit à partir de 96&euro;</p>
+                    <aside class="accomodation__a_margin">
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                        <i class="fas fas fa-star starbleu"></i>
+                    </aside>  
+                </a>
+                <h3 class="accomodation__h3">Afficher Plus</h3>
+            </div>   
         </article>
-<!---------------------------------------------------------------------------- Popular ----------------------------------------------------------------------------------->
-        <article>
-            <h2>Les plus populaires</h2>
-            <a href="#">  
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\hebergements\hotel_le_soleil_du_matin.JPG" alt="hotel_le_soleil_du_matin">
-                    <h3>Hôtel Le soleil du matin</h3>
-                    <p>Nuit à partir de 128&euro;</p>
-                    <aside>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                    </aside>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img Src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\hebergements\au_coeur_de_l'eau_chambre_d'hotes.JPG" alt="au_coeur_de_l'eau_chambre_d'hotes">
-                    <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                    <p>Nuit à partir de 71&euro;</p>
-                    <aside>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="stargray"></i>
-                    </aside>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img Src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\hebergements\hotel_tout_bleu_et_blanc.JPG" alt="hotel_tout_bleu_et_blanc">                                                    
-                    <h3 class="hotelName">Hôtel Tout bleu et Blanc</h3>
-                    <p>Nuit à partir de 68&euro;</p>                                    
-                    <aside>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="starbleu"></i>
-                        <i class="fas fas fa-star" id="stargray"></i>
-                    </aside>
-                </section>
-            </a>
+<!-- Popular -->
+        <article class="main__popular">
+            <div class="popular__section">
+                <div class="popular__section__title">
+                    <h2 class="popular__h2">Les plus populaires</h2>
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <a class="popular__section__a" href="#">  
+                    <img class="popular__a__img" src="./images/hebergements/hotel_le_soleil_du_matin.JPG" alt="hotel_le_soleil_du_matin">
+                    <div class="popular__a__comment">
+                        <div>
+                            <h3 class="popular__a__comment__h3">Hôtel Le soleil du matin</h3>
+                            <p class="popular__a__comment__p">Nuit à partir de 128&euro;</p>
+                        </div>
+                        <aside class="popular__a__comment__aside">
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                        </aside>
+                    </div>
+                </a>
+                <a class="popular__section__a" href="#">
+                    <img class="popular__a__img" Src="./images/hebergements/au_coeur_de_l'eau_chambre_d'hotes.JPG" alt="au_coeur_de_l'eau_chambre_d'hotes">
+                    <div class="popular__a__comment">
+                        <div>
+                            <h3 class="popular__a__comment__h3">Au coeur de l'eau Chambres d'hôtes</h3>
+                            <p class="popular__a__comment__p">Nuit à partir de 71&euro;</p>
+                        </div>
+                        <aside class="popular__a__comment__aside">
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star stargray"></i>
+                        </aside>
+                    </div>
+                </a>
+                <a class="popular__section__a" href="#">
+                    <img class="popular__a__img" Src="./images/hebergements/hotel_tout_bleu_et_blanc.JPG" alt="hotel_tout_bleu_et_blanc">                                                    
+                    <div class="popular__a__comment">
+                        <div>
+                            <h3 class="popular__a__comment__h3">Hôtel Tout bleu et Blanc</h3>
+                            <p class="popular__a__comment__p">Nuit à partir de 68&euro;</p>
+                        </div>                                    
+                        <aside class="popular__a__comment__aside">
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star starbleu"></i>
+                            <i class="fas fas fa-star stargray"></i>
+                        </aside>
+                    </div>
+                </a>
+            </div>
         </article>
-<!----------------------------------------------------------------------- Activity --------------------------------------------------------------------------------------->
-        <article>
-            <h2>Activités à Marseille</h2>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\vieux_port.JPG" alt="Vieux Port">
-                    <h3>Vieux Port</h3>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\fort_de_pomègues.JPG" alt="Fort de pomègues">
-                    <h3>Fort de pomègues</h3>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\iles_du_frioul.JPG" alt="îles du Frioul">
-                    <h3>îles du Frioul</h3>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\parc_national_des_calanques.JPG" alt="Parc National des Calanques">
-                    <h3>Parc National des Calanques</h3>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\notre_dame_de_la_garde.JPG" alt=Notre-dame-de-la-Garde">
-                    <h3>Notre-Dame-de-la-Garde</h3>
-                </section>
-            </a>
-            <a href="#">
-                <section>
-                    <img src="C:\Users\PC\Desktop\anatole_viaud_projet_2_openclassroom_reservia\images\activites\parc_longchamp.JPG" alt="Parc Longchamp">
-                    <h3>Parc Longchamp</h3>
-                </section>
-            </a>
+<!-- Activity -->
+        <article class="main__activity">
+            <h2 class="activity__h2" >Activités à Marseille</h2>
+            <section class="activity__section__bloc1">
+                <a class="activity__section__a__grand" href="#">
+                    <img class="activity__section__a__img__grand" src="./images/activites/vieux_port.JPG" alt="Vieux Port">
+                    <h3 class="activity__section__a__h3">Vieux Port</h3>
+                </a>
+            </section>
+            <section class="activity__section__bloc2">
+                <a class="activity__section__a__petit" href="#">
+                    <img class="activity__section__a__img__petit" src="./images/activites/fort_de_pomègues.JPG" alt="Fort de pomègues">
+                    <h3 class="activity__section__a__h3">Fort de pomègues</h3>
+                </a>
+                <a class="activity__section__a__petit" href="#">
+                    <img class="activity__section__a__img__petit" src="./images/activites/iles_du_frioul.JPG" alt="îles du Frioul">
+                    <h3 class="activity__section__a__h3">îles du Frioul</h3>
+                </a>
+            </section>
+            <section class="activity__section__bloc3">
+                <a class="activity__section__a__grand" href="#">
+                    <img class="activity__section__a__img__grand" src="./images/activites/parc_national_des_calanques.JPG" alt="Parc National des Calanques">
+                    <h3 class="activity__section__a__h3">Parc National des Calanques</h3>
+                </a>
+            </section>
+            <section class="activity__section__bloc4">
+                <a class="activity__section__a__petit" href="#">
+                    <img class="activity__section__a__img__petit" src="./images/activites/notre_dame_de_la_garde.JPG" alt="Notre-dame-de-la-Garde">
+                    <h3 class="activity__section__a__h3">Notre-Dame-de-la-Garde</h3>
+                </a>
+                <a class="activity__section__a__petit" href="#">
+                    <img class="activity__section__a__img__petit" src="./images/activites/parc_longchamp.JPG" alt="Parc Longchamp">
+                    <h3 class="activity__section__a__h3">Parc Longchamp</h3>
+                </a>
+            </section>
         </article> 
-
     </main>
-<!-------------------------------------------------------------------------- footer -------------------------------------------------------------------------------------->   
-    <footer>
-        <section>              
-            <h2>A propos</h2>
-            <ul>    
-                <li>fonctionnement du site</li> 
-                <li>Conditions générales de vente</li> 
+<!-- footer -->   
+    <footer class="footer">
+        <section class="footer__section">              
+            <h2 class="footer__section__h2">A propos</h2>
+            <ul class="footer__section__ul">    
+                <li class="footer__section__ul__li">fonctionnement du site</li> 
+                <li class="footer__section__ul__li">Conditions générales de vente</li> 
                 <li>Données et confidentialité</li>
             </ul>
         </section>
-        <section>
-            <h2>Nos hébergements</h2>         
-            <ul> 
-                <li>Charte qualité</li>
+        <section class="footer__section">
+            <h2 class="footer__section__h2">Nos hébergements</h2>         
+            <ul class="footer__section__ul"> 
+                <li class="footer__section__ul__li">Charte qualité</li>
                 <li>Soumettre votre hôtel</li>
             </ul> 
         </section>
-        <section>     
-            <h2>Assistance</h2>      
-            <ul>
-                <li>Centre d'aide</li>
+        <section class="footer__section">     
+            <h2 class="footer__section__h2">Assistance</h2>      
+            <ul class="footer__section__ul">
+                <li class="footer__section__ul__li">Centre d'aide</li>
                 <li>Nous contacter</li>
             </ul>
         </section>
-    </footer>         
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>               
+    </footer>                        
 </body>
 </html>
