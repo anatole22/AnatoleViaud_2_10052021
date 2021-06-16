@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1, user-scalable=0">
     <title>Reservia</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,10 +14,10 @@
     <header class="header">   
         <img class="header__img" src="./images/logo/Reservia@3x.png" alt="logo">
         <nav class="header__nav">    
-            <a class="header__nav__a__link" href="#hébergement">Hébergements</a>
-            <a class="header__nav__a__link" href="#activités">Activités</a>   
-            <a class="header__nav__a__signup" href="#">S'inscrire</a>
+            <a class="header__nav__a__link" href="#accomodation">Hébergements</a>
+            <a class="header__nav__a__link" href="#activity">Activités</a>   
         </nav> 
+        <a class="header__nav__a__signup" href="#">S'inscrire</a>
     </header>
 <!-- Search --> 
     <section class="search">
@@ -26,6 +27,7 @@
             <i class="fas fa-map-marker-alt search__bar__i"></i> 
             <input class="search__bar__input" type="search" value="Marseille, France"/>
             <button class="search__bar__button">Rechercher</button> 
+            <button class="search__bar__button__icone"><i class="fas fa-search"></i></button>
         </div>
     </section>
 <!-- Filter -->
@@ -33,7 +35,7 @@
         <h2 class="filter__h2">Filtres</h2>
         <ul class="filter__ul">
             <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-money-bill-wave filter__ul__li__i "></i>Economique</a></li>
-            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-child filter__ul__li__i"></i>Familial</a></li>
+            <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-child filter__ul__li__i__familial"></i>Familial</a></li>
             <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas far fa-heart filter__ul__li__i"></i>Romantique</a></li>
             <li class="filter__ul__li"><a href="#" class="filter__ul__li__a"><i class="fas fas fa-dog filter__ul__li__i"></i>Animaux autorisés</a></li>        
         </ul>
@@ -45,8 +47,8 @@
     </div> 
 <!-- Main -->
     <main class="main">
-<!-- Accommodation --> 
-        <article class="main__accomodation">
+<!-- Accomodation --> 
+        <article class="main__accomodation" id="accomodation">
             <div class="accomodation__section">
                 <h2 class="accomodation__h2">Hébergements à Marseille</h2>
                 <a class="accomodation__a" href="#">
@@ -182,7 +184,7 @@
             </div>
         </article>
 <!-- Activity -->
-        <article class="main__activity">
+        <article class="main__activity" id="activity">
             <h2 class="activity__h2" >Activités à Marseille</h2>
             <section class="activity__section__bloc1">
                 <a class="activity__section__a__grand" href="#">
@@ -235,7 +237,7 @@
                 <li>Soumettre votre hôtel</li>
             </ul> 
         </section>
-        <section class="footer__section">     
+        <section class="footer__section footer--margin0">     
             <h2 class="footer__section__h2">Assistance</h2>      
             <ul class="footer__section__ul">
                 <li class="footer__section__ul__li">Centre d'aide</li>

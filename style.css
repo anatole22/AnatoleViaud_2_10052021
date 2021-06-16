@@ -8,10 +8,12 @@ body{
 a{
     text-decoration: none;
     color: black;
-    font-size: 1rem;
+    font-size: 0.895rem;
 }
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 li{
     font-size: 1rem;
@@ -44,14 +46,13 @@ h3{
     margin-right: auto;
 }
 .header__nav{
-    width: 400px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .header__nav__a__link{
     height: 100px;
     padding: 0 10px 0 10px;
+    margin: 0 25px 0 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +61,7 @@ h3{
 .header__nav__a__signup{
     color: #0065fc;
     height: 100px;
-    padding: 0 0 0 10px;
+    margin-left: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,35 +111,46 @@ h3{
     color: white;
     font-size: 18px;
 }
+.search__bar__button__icone{
+    display: none;
+}
 /*Filter*/
 .filter{
     margin: 30px 50px 0 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 .filter__h2{
-    width: 5%;
+    margin: 0 30px 20px 0;
 }
 .filter__ul{
     display: flex;
     flex-wrap: wrap;
-    width: 95%;
 }
 .filter__ul__li{
     border: solid #f2f2f2 3px;
     border-radius: 60px;
-    margin: 0 25px 0 0;
+    margin: 0 10px 20px 0;
     color: black;
     font-weight: bold;  
 }
 .filter__ul__li__a{
-    margin-right: 20px;
+    margin-right: 15px;
     font-weight: bold;
-    white-space: nowrap;
 }
 .filter__ul__li__i{
     padding: 18px 18px 18px 18px;
+    margin: -3px 0 -3px -3px;
+    background: #deebff;
+    border-radius: 100%;
+    color: #0065fc;
+    margin-right: 20px;
+}
+.filter__ul__li__i__familial{
+    padding: 18px 20px 18px 20px;
+    margin: -3px 0 -3px -3px;
     background: #deebff;
     border-radius: 100%;
     color: #0065fc;
@@ -146,10 +158,11 @@ h3{
 }
 .filter__ul__li:hover{
     background: #deebff;
+    border: solid #deebff 3px;
 }
 /*Info*/
 .info{
-    padding: 30px 50px 0 50px;
+    margin: 10px 50px 0 50px;
     display: flex;
     align-items: center;
 }
@@ -190,7 +203,8 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
+    padding: 0 40px 0 40px;
 }
 .accomodation__h2{
     width: 100%;
@@ -336,7 +350,7 @@ h3{
 .footer{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     background: #f2f2f2;
     padding: 50px 0 50px 50px;
 }
@@ -348,7 +362,7 @@ h3{
 .footer__section__ul{
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 20px 0 0 0;
 }
 .footer__section__ul__li{
     padding: 0 0 20px 0;
@@ -425,7 +439,7 @@ h3{
     }
     .activity__section__a__petit{
         height: 260px;
-        width: 300px;
+        width: 46.20%;
     }
     .activity__section__a__img__grand{
         height: 208px;
@@ -433,5 +447,154 @@ h3{
     .activity__section__a__img__petit{
         height: 208px;
         width: 100%;
+    }
+    /* hearder */
+    .header__nav__a__signup{
+
+    }
+}
+@media all and (max-width: 600px){
+    /* Hearder */
+    .header{
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 30px 0 0 0;
+    }
+    .header__img{
+        order: 1;
+        margin: 0 0 0 20px;
+    }
+    .header__nav{
+        width: 100%;
+        justify-content: space-around;
+        order: 3;
+    }
+    .header__nav__a__link{
+        height: 50px;
+        width: 50%;
+        margin: 0;
+        border-top: none;
+        border-bottom: solid #f2f2f2 3px;
+    }
+    .header__nav__a__signup{
+        order: 2;
+        height: 50px;
+        margin: 0 20px 0 0;
+    }
+    .header__nav__a__link:hover{
+        border-top: none;
+        border-bottom: solid #0065fc 3px;
+    }
+    /* search */
+    .search{
+        margin: 35px 20px 35px 20px;
+    }
+    .search__bar__button{
+        display: none;
+    }
+    .search__bar__button__icone{
+        display: block;
+        height: 50px;
+        width: 50px;
+        border-radius: 15px;
+        border: solid #0065fc 1px;
+        background: #0065fc;
+        color: white;
+        font-size: 18px;
+        margin-left: -10px;
+    }
+    /* filter */
+    .filter{
+        margin: 0 20px 30px 20px;
+    }
+    /* info */
+    .info{
+        margin: 0 20px 0 20px;
+    }
+    /* main */
+    .main{
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    /* accomodation */
+    .main__accomodation{
+        background: none;
+        border-radius: 0;
+    }
+    .accomodation__section{
+        flex-direction: column;
+        padding: 0;
+        margin: 50px 20px 0 20px;
+    }
+    .accomodation__a{
+        width: 98%;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        margin: 0 0 10px 0;
+    }
+    /* popular */
+    .main__popular{
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+    .popular__section{
+        flex-direction: column;
+        margin: 50px 20px 0 20px;
+    }
+    .popular__section__a{
+        width: 98%;
+        flex-direction: row;
+    }
+    .popular__a__img{
+        width: 40%;
+        border-radius: 20px 0 0 20px;
+    }
+    .popular__a__comment{
+        justify-content: space-between;
+    }
+    /* activity */
+    .main__activity{
+        flex-direction: column;
+        width: 100%;
+        margin: 60px 20px 12px 20px;
+    }
+    .activity__section__bloc1{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .activity__section__bloc2{
+        flex-direction: column;
+        width: 100%;
+        height: 560px;
+        margin-bottom: 11px;
+    }
+    .activity__section__bloc3{
+        width: 100%;
+        margin-bottom: 40px;
+        margin-bottom: 25px;
+    }
+    .activity__section__bloc4{
+        flex-direction: column;
+        width: 100%;
+        height: 560px;
+        margin-bottom: 25px;
+    }
+    .activity__section__a__petit{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    /* footer */
+    .footer{
+        flex-direction: column;
+        justify-content: ;
+        margin-bottom: 0;
+    }
+    .footer__section{
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .footer--margin0{
+        margin-bottom: 0;
     }
 }
