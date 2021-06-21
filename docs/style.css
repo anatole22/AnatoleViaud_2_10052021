@@ -1,3 +1,11 @@
+/* Reset minimaliste */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
 /* General */
 html{
     font-family: 'raleway', Arial, Helvetica, sans-serif
@@ -224,7 +232,7 @@ ul.filter__list > li:hover{
     height: 115px;
     border-radius: 20px 20px 0 0;
 }
-.accomodation__card h3{
+.accomodation__card h3, .accomodation__card p, .accomodation__card aside{
     margin: 8px 0 8px 15px;
 }
 .accomodation__card p{
