@@ -564,6 +564,7 @@ ul.footer__list > li{
     .popular__bloc{
         flex-direction: column;
         margin: 50px 20px 0 20px;
+        width: 100%;
     }
     .popular__card{
         width: 98%;
