@@ -397,6 +397,12 @@ ul.footer__list > li{
     .accomodation__bloc{
         margin: 50px 0 50px 0;
     }
+    .accomodation__card{
+        height: 290px;
+    }
+    .accomodation__card img{
+        height: 190px;
+    }
     /* popular */
     .popular{
         order: 1;
@@ -408,11 +414,11 @@ ul.footer__list > li{
     }
     .popular__card{
         width: 30%;
-        height: 210px;
+        height: 290px;
         flex-direction: column;
     }
     .popular__card img{
-        height: 115px;
+        height: 190px;
         width: 100%;
         border-radius: 20px 20px 0 0;
     }
@@ -435,39 +441,39 @@ ul.footer__list > li{
     }
     .activity__bloc__mobile1{
         width: 30%;
-        height: 210px;
+        height: 290px;
         margin-bottom: 40px;
     }
     .activity__bloc__mobile2{
         width: 65%;
-        height: 210px;
+        height: 290px;
         flex-direction: row;
         align-items: flex-start;
         margin-bottom: 40px;
     }
     .activity__bloc__mobile3{
         width: 30%;
-        height: 210px;
+        height: 290px;
     }
     .activity__bloc__mobile4{
         width: 65%;
-        height: 210px;
+        height: 290px;
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
     }
     .activity__card{
-        height: 210px;
+        height: 290px;
     }
     .activity__card__mobile{
-        height: 210px;
+        height: 290px;
         width: 46.20%;
     }
     .activity__card img{
-        height: 155px;
+        height: 230px;
     }
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 700px){
     /* Hearder */
     .header{
         justify-content: space-between;
@@ -546,6 +552,10 @@ ul.footer__list > li{
         width: 98%;
         box-shadow: 5px 5px 5px 1px #f2f2f2;
         margin: 0 0 10px 0;
+        height: 200px;
+    }
+    .accomodation__card img{
+        height: 115px;
     }
     /* popular */
     .popular{
@@ -577,28 +587,33 @@ ul.footer__list > li{
     }
     .activity__bloc__mobile1{
         width: 100%;
+        height: 200px;
         margin-bottom: 25px;
     }
     .activity__bloc__mobile2{
         flex-direction: column;
         width: 100%;
-        height: 400px;
-        margin-bottom: 11px;
+        height: 425px;
+        margin-bottom: 25px;
     }
     .activity__bloc__mobile3{
         width: 100%;
+        height: 200px;
         margin-bottom: 40px;
         margin-bottom: 25px;
     }
     .activity__bloc__mobile4{
         flex-direction: column;
         width: 100%;
-        height: 450px;
+        height: 425px;
         margin-bottom: 25px;
     }
-    .activity__card__mobile{
+    .activity__card img{
+        height: 135px;
+    }
+    .activity__card{
+        height: 200px;
         width: 100%;
-        margin-bottom: 25px;
     }
     /* footer */
     .footer{
