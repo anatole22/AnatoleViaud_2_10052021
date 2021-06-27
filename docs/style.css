@@ -236,14 +236,15 @@ article{
 }
 .popular img{
     width: 38%;
-    height: 135px;
+    height: auto;
     border-radius: 20px 0 0 20px;
 }
 .popular_comment{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 15px 20px 10px 20px;
+    margin: 15px 0 10px 20px;
+    width: 62%;
 }
 .popular_comment h3{
     margin-bottom: 15px;
@@ -383,7 +384,7 @@ footer section{
         justify-content: space-between;
     }
     .popular a img{
-        height: 190px;
+        height: 69%;
         width: 100%;
         border-radius: 20px 20px 0 0;
     }
@@ -433,7 +434,7 @@ footer section{
         height: 220px;
     }
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 650px){
     /* Hearder */
     header{
         justify-content: space-between;
@@ -537,7 +538,7 @@ footer section{
     }
     .popular a img{
         width: 40%;
-        height: 135px;
+        height: auto;
         border-radius: 20px 0 0 20px;
     }
     /* activity */
