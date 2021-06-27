@@ -44,9 +44,13 @@ header nav{
     border-top: solid #0065fc 1px;
     color: #0065fc;
 }
+/* Main */
+main{
+    margin: 50px;
+}
 /* Search */
 .search{
-    margin: 10px 50px 0 50px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 } 
@@ -87,7 +91,7 @@ header nav{
 }
 /*Filter*/
 .filter{
-    margin: 30px 50px 0 50px;
+    margin-top: 30px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -132,7 +136,7 @@ header nav{
 }
 /*Info*/
 .info{
-    margin: 10px 50px 0 50px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
 }
@@ -144,12 +148,12 @@ header nav{
     border-radius: 100%;
     border: solid #f2f2f2 1px;
 }
-/*main*/
-main{
+/*article*/
+article{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 50px;
+    margin-top: 40px;
 }
 .starbleu{
     color: #0065fc;
@@ -370,6 +374,7 @@ footer section{
     }
     .popular_bloc{
         justify-content: space-between;
+        width: 100%;
     }
     .popular a{
         width: 48.5%;
@@ -461,9 +466,13 @@ footer section{
         border-top: none;
         border-bottom: solid #0065fc 3px;
     }
+    /* Main */
+    main{
+        margin: 35px 0 50px 0;
+    }
     /* search */
     .search{
-        margin: 35px 20px 35px 20px;
+        margin: 0 20px 35px 20px;
     }
     .search input{
         width: 245px;
@@ -490,19 +499,16 @@ footer section{
     .info{
         margin: 0 20px 0 20px;
     }
-    /* main */
-    main{
-        margin: 50px 0 50px 0;
-    }
     /* accomodation */
     .accomodation{
         background: none;
         border-radius: 0;
+        margin: 0 20px 0 20px;
     }
     .accomodation div{
         flex-direction: column;
         padding: 0;
-        margin: 50px 20px 0 20px;
+        margin: 50px 0 0 0;
     }
     .accomodation a{
         width: 100%;
@@ -516,11 +522,11 @@ footer section{
     /* popular */
     .popular{
         border-radius: 0;
-        margin-bottom: 0;
+        margin: 0;
     }
     .popular_bloc{
         flex-direction: column;
-        margin: 50px 20px 0 20px;
+        margin: 40px 20px 0 20px;
         width: 100%;
     }
     .popular a{
@@ -538,7 +544,7 @@ footer section{
     .activity{
         flex-direction: column;
         width: 100%;
-        margin: 60px 20px 0 20px;
+        margin: 50px 20px 0 20px;
     }
     .activity_section{
         width: 100%;
