@@ -383,13 +383,14 @@ footer section{
         flex-direction: column;
         justify-content: space-between;
     }
-    .popular a img{
+    .popular img{
         height: 69%;
         width: 100%;
         border-radius: 20px 20px 0 0;
     }
     .popular_comment{
         margin: 5px 0 0 10px;
+        width: 100%;
     }
     .popular_comment h3{
         margin:0 0 5px 0;
@@ -434,7 +435,7 @@ footer section{
         height: 220px;
     }
 }
-@media all and (max-width: 650px){
+@media all and (max-width: 550px){
     /* Hearder */
     header{
         justify-content: space-between;
