@@ -8,15 +8,16 @@ html{
 }
 /* Header */
 header{
-    margin: 0 50px 10px 50px;
+    margin: 0 50px 35px 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    height: 90px;
 }
 header img{
-    width: 120px;
     height: 50px;
     margin-right: auto;
+    margin-top: auto;
 }
 header nav{
     display: flex;
@@ -26,15 +27,16 @@ header nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    padding: 0 10px 0 10px;
+    height: 90px;
+    padding: 20px 10px 0 10px;
     margin: 0 25px 0 25px;
     border-top: solid white 1px;
 }
 .signup{
     color: #0065fc;
-    height: 100px;
     margin-left: 35px;
+    padding-top: 20px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +48,7 @@ header nav{
 }
 /* Main */
 main{
-    margin: 50px;
+    margin: 0 50px 50px 50px;
 }
 /* Search */
 .search{
@@ -234,6 +236,7 @@ main{
     border-radius: 20px;
     border: solid 5px white;
     margin-bottom: 30px;
+    box-shadow: 5px 5px 5px 1px #d9d9d9;
 }
 .popular img{
     width: 38%;
@@ -515,12 +518,14 @@ footer section{
     }
     .accomodation a{
         width: 100%;
-        box-shadow: 5px 5px 5px 1px #f2f2f2;
         margin: 0 0 10px 0;
         height: 200px;
     }
     .accomodation a img{
         height: 115px;
+    }
+    .show_more{
+        padding-top: 25px;
     }
     /* popular */
     .popular{
