@@ -8,22 +8,15 @@ html{
 }
 /* Header */
 header{
-    margin: 0 50px 0 50px;
+    margin: 0 50px 10px 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-}
-.header__div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
 }
 header img{
     width: 120px;
     height: 50px;
     margin-right: auto;
-    
 }
 header nav{
     display: flex;
@@ -166,7 +159,7 @@ main{
     color: #0065fc;
 }
 .stargray{
-    color: #f2f2f2;
+    color: rgb(217, 217, 217);
 }
 /*accomodation*/
 .accomodation{
@@ -195,6 +188,7 @@ main{
     height: 200px;
     border: solid 5px white;
     margin: 0 0 30px 0;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 .accomodation img{
     width: 100%;
