@@ -1,8 +1,8 @@
 # Reservia
 
-![Screenshot](./images/maquettes/desktop.png)
+Second projet de la formation "Développeur web" chez OpenClassroom. L'objectif de ce projet est d'intégrer une maquette responsive HTML et CSS du site Réservia.
 
-Second projet de la formation "Développeur web" chez OpenClassroom. L'objectif de ce projet est d'intégrer une maquette en responsive HTML et CSS du site Réservia.
+![Screenshot](./images/maquettes/desktop.png)
 
 ## Cahier des charges 
 
@@ -14,7 +14,7 @@ Second projet de la formation "Développeur web" chez OpenClassroom. L'objectif 
 
 • Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
 
-Les contraintes techniques
+### Les contraintes techniques
 
 • Deux maquettes : l’une desktop et l’autre mobile. Le site devra également être adapté aux tablettes.
 
@@ -36,26 +36,26 @@ Les contraintes techniques
 
 • Versionner le code avec Git puis le déployer sur la page GitHub Pages ou GitLab
 
-## Notes sur la réalisation
+## Réalisation
 
 Le site respecte bien les fonctionnalités et les contraintes techniques pour l'intégration de la maquette.
 
 Afin de faciliter le code, la maquette a été délimité en différentes parties via les balises sémantiques afin de structurer la page (des commentaires sont ajoutés dans le HTML et le CSS afin de faciliter la lecture).
 
-[1) Les balises de délimitations de zone dans la page :
+1) Les balises de zone:
 
-L'entête du site avec HEADER, le menu de navigation avec NAV, le contenu principal avec MAIN, les contenu indépendants avec ARTICLES, les balises SECTION pour un découpage plus précis, le pied de page avec FOOTER.
+L'entête du site avec HEADER, le menu de navigation avec NAV, le contenu principal avec MAIN, les contenus indépendants avec ARTICLES, les balises SECTION pour un découpage plus précis, le pied de page avec FOOTER.
 
-2) les balises de balisage de contenu :
+2) les balises de contenu :
 
 Les balises standards comme les balises P, A, UL, STRONG, DIV etc…]
 
-le responsive a été intégré directement dans le fichier CSS "reservia.css"
+Le responsive a été intégré directement dans le fichier CSS "style.css"
 
 Le code ne contient aucune erreur au validateur W3C HTML et CSS.
 
-Le code a été versionner sur GIT et déployé sur GITHUB a l'addresse suivante https://anatole22.github.io/AnatoleViaud_2_10052021/
+Le code a été versionné sur GIT et déployé sur GITHUB a l'addresse suivante https://anatole22.github.io/AnatoleViaud_2_10052021/
 
-## Notes sur l'utilisation de mes outils
+## Note sur l'utilisation des outils
 
 Pour ce projet, j'ai utilisé l'éditeur VISUAL STUDIO CODE, les plugins LIVE SERVER, PRETTIER , GITHUB.
