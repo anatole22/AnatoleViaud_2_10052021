@@ -42,11 +42,11 @@ Le site respecte bien les fonctionnalités et les contraintes techniques pour l'
 
 Afin de faciliter le code, la maquette a été délimité en différentes parties via les balises sémantiques afin de structurer la page (des commentaires sont ajoutés dans le HTML et le CSS afin de faciliter la lecture).
 
-1) Les balises de zone:
+### Les balises de zone :
 
 L'entête du site avec HEADER, le menu de navigation avec NAV, le contenu principal avec MAIN, les contenus indépendants avec ARTICLES, les balises SECTION pour un découpage plus précis, le pied de page avec FOOTER.
 
-2) les balises de contenu :
+### les balises de contenu :
 
 Les balises standards comme les balises P, A, UL, STRONG, DIV etc…]
 
