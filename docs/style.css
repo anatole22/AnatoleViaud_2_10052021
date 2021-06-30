@@ -8,7 +8,7 @@ html{
 }
 /* Header */
 header{
-    margin: 20px 50px 0 50px;
+    margin: 0 50px 0 50px;
     display: grid;
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo . navbar button";
