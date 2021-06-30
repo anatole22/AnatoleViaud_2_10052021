@@ -1,8 +1,10 @@
 # Reservia
 
+![Screenshot](./images/maquettes/desktop.png)
+
 Second projet de la formation "Développeur web" chez OpenClassroom. L'objectif de ce projet est d'intégrer une maquette en responsive HTML et CSS du site Réservia.
 
-Les fonctionnalités du Site 
+## Cahier des charges 
 
 • Les usagers pourront rechercher des hébergements dans la ville de leur choix. Le champ de recherche est donc un champ de saisie, dont le texte peut être édité par l’usager. En revanche, à ce stade, le bouton de recherche ne sera pas fonctionnel.
 
@@ -34,7 +36,7 @@ Les contraintes techniques
 
 • Versionner le code avec Git puis le déployer sur la page GitHub Pages ou GitLab
 
-Notes sur la réalisation
+## Notes sur la réalisation
 
 Le site respecte bien les fonctionnalités et les contraintes techniques pour l'intégration de la maquette.
 
@@ -54,6 +56,6 @@ Le code ne contient aucune erreur au validateur W3C HTML et CSS.
 
 Le code a été versionner sur GIT et déployé sur GITHUB a l'addresse suivante https://anatole22.github.io/AnatoleViaud_2_10052021/
 
-Notes sur l'utilisation de mes outils
+## Notes sur l'utilisation de mes outils
 
 Pour ce projet, j'ai utilisé l'éditeur VISUAL STUDIO CODE, les plugins LIVE SERVER, PRETTIER , GITHUB.
