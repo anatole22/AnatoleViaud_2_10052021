@@ -1,4 +1,4 @@
-#Reservia
+# Reservia
 
 Second projet de la formation "Développeur web" chez OpenClassroom. L'objectif de ce projet est d'intégrer une maquette en responsive HTML et CSS du site Réservia.
 
