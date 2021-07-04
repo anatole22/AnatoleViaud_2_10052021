@@ -8,11 +8,13 @@ html{
 }
 /* Header */
 header{
-    margin: 0 50px 0 50px;
+    padding: 0 50px 0 50px;
     display: grid;
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo . navbar button";
     align-items: center;
+    max-width: 1440px;
+    margin: auto;
 }
 header img{
     grid-area: logo;
@@ -40,12 +42,14 @@ header nav{
     font-weight: bold;
 }
 .link:hover{
-    border-top: 1px #0065fc solid;
+    border-top: 3px #0065fc solid;
     color: #0065fc;
 }
 /* Main */
 main{
-    margin: 15px 50px 50px 50px;
+    padding: 15px 50px 50px 50px;
+    margin: auto;
+    max-width: 1440px;
 }
 /* Search */
 .search{
@@ -332,14 +336,18 @@ main{
 }
 /*footer*/
 footer{
+    background: #f2f2f2;
+    height: 220px;
+}
+footer div{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background: #f2f2f2;
-    height: 220px;
     padding: 50px 0 50px 50px;
+    max-width: 1440px;
+    margin: auto;
 }
-footer section{
+footer div section{
     display: flex;
     flex-direction: column;
     height: 120px;
