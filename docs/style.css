@@ -593,7 +593,8 @@ footer div section{
     footer div{
         flex-direction: column;
         justify-content: space-between;
-        padding-top: 40px;
+        padding: 40px 20px 0 20px;
+        
     }
     footer div section{
         justify-content: flex-end;
