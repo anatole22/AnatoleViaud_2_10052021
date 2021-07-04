@@ -30,8 +30,8 @@ header nav{
 .link{
     padding: 32px;
     text-align: center;
-    border-top: 1px transparent solid;
-    border-bottom: 1px transparent solid;
+    border-top: 3px transparent solid;
+    border-bottom: 3px transparent solid;
 }
 .signup{
     display: flex;
@@ -450,6 +450,7 @@ footer div section{
         margin: 0;
         grid-template-columns: auto 1fr auto;
         grid-template-areas: "logo . button" "navbar navbar navbar";
+        padding: 0;
     }
     header img{
         order: 0;
@@ -476,7 +477,7 @@ footer div section{
 @media all and (max-width: 550px){
     /* Main */
     main{
-        margin: 35px 0 50px 0;
+        padding: 35px 0 50px 0;
     }
     /* search */
     .search{
@@ -587,12 +588,14 @@ footer div section{
     }
     /* footer */
     footer{
-        flex-direction: column;
         height: 485px;
+    }
+    footer div{
+        flex-direction: column;
         justify-content: space-between;
         padding-top: 40px;
     }
-    footer section{
+    footer div section{
         justify-content: flex-end;
         width: 100%;
         height: 128px;
